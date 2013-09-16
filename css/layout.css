@@ -1,0 +1,181 @@
+body {
+	background-color:#000;
+	font-size:14px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1,h2{
+	font-size:22px;
+	font-weight:normal;
+	padding-left:5px;
+}
+h1 {
+	font-size:28px;
+}
+
+
+header, footer {
+	background-color:#17575c;
+	color:#fff;
+}
+
+.navigation-container {
+	width: 100%;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
+.navigation-container ul {
+	list-style-type: none; /*to remove bullets*/
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    display:table;
+    overflow: hidden;
+}
+.navigation-container li {
+	float: left;
+    padding: 2px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation-container li a {
+	color:#fff;
+}
+
+.main-body h1 {
+	color:#fff;
+	background-color:#6d3535;
+	font-size:28px;
+}
+
+.homepage-attention {
+	background-image:url('../images/backgrounds/homepage.png');
+	padding-bottom:10px;
+}
+
+.homepage-attention .secondary-content {
+	background-color:rgba(255,255,255,.9);
+}
+
+.social-icons {
+	text-align:right;
+}
+.social-icons span {
+	color:#fff;
+}
+
+.main-body {
+	background-color:#fff;
+}
+
+#next-game {
+	padding:5px;
+}
+#next-game h2 {
+	background-color:#17575c;
+	color:#fff;
+}
+
+#news{
+	overflow: auto;
+}
+
+#news h2 {
+	background-color:#6d3535;
+	color:#fff;
+}
+
+#news table {
+	font-size:14pt;
+	border-spacing: 25px 10px;
+}
+#news tr:nth-child(odd){
+	background-color: #E0E0E0;
+	border-color: #E0E0E0;
+}
+
+#league-standings{
+	overflow: auto;
+	font-size: 14pt;
+}
+
+#league-standings h2 {
+	background-color:#17575c;
+	color:#fff;
+}
+
+#league-standings table {
+	border-spacing: 25px 10px;
+}
+
+footer ul {
+	list-style-type: none;
+}
+footer li {
+	padding:5px;
+}
+
+footer .navigation-container {
+	padding-top:10px;
+}
+
+.team-members .player {
+	width:180px;
+}
+.box{
+	float:left;
+	height:auto;
+	max-width: 50%;
+	margin-right: 30px;
+}
+.box2{
+	/*float:right;*/
+	margin-left:50%;
+	height:auto;
+	max-width: 50%;
+}
+.clear{
+	clear: both;
+}
+
+/*Contact Us Stylings*/
+
+#contact-table{
+	margin-right: auto;
+	margin-left:auto;
+	width:610px;
+	/*background-color:#6d3535;*/
+}
+
+#sub-header{
+	background-color:#17575c;
+	color:#fff;
+	font-size: 14pt;
+	width:600px;
+}
+
+/*Sponsors Stylings*/
+@-webkit-keyframes pulse {
+ from {
+   opacity: 0.0;
+   font-size: 100%;
+ }
+ to {
+   opacity: 1.0;
+   font-size: 200%;
+ }
+}
+
+#sponsors {
+  -webkit-animation-name: pulse;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+}
